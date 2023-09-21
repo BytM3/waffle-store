@@ -102,11 +102,11 @@ h6 {
 
 .back-to-top:hover {
   background: #fd6c9e;
-  color: #1a1814;
+  color: #ffff;
 }
 
 .back-to-top:hover i {
-  color: #444444;
+  color: #ffff;
 }
 
 .back-to-top.active {
@@ -114,6 +114,23 @@ h6 {
   opacity: 1;
 }
 
+/*scrollbar design*/
+::-webkit-scrollbar{
+  width:6px;
+  height:1px;
+}
+::-webkit-scrollbar-thumb{
+  /*background: linear-gradient(
+    to bottom,
+    #006eff,
+    #006eff
+  );*/
+  background: #fd6c9e;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
